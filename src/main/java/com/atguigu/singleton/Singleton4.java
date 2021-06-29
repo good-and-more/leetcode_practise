@@ -1,7 +1,7 @@
 package com.atguigu.singleton;
 
 /**
- * 懒汉模式,加上双重校验 加锁 volatile防止指令重排
+ * 懒汉模式,加上双重校验加锁DCL volatile防止指令重排
  */
 public class Singleton4 {
     private Singleton4() {}
